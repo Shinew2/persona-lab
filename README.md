@@ -15,6 +15,13 @@ Start a preview of this Persona Lab starter in my sandbox. Follow the
 repository's preview instructions and give me a browser-accessible URL.
 ```
 
+## Deployed paper prototype
+
+The [GitHub Pages site](https://shinew2.github.io/persona-lab/) opens the
+clickable paper mock. Pushes to `main` build the static site, check its
+repository-relative asset paths, and publish the `dist` output automatically.
+Pull requests run the same build and path checks without deploying.
+
 ## Prepared paper prototype and asset pack
 
 The preview opens the paper mock at `/`. You can also visit
@@ -31,4 +38,4 @@ not a finished website. There is no separate application mock.
 
 - This app has no real browser or model integration.
 - The sample journey and rationale are simulated; they are not human research.
-- GitHub Pages deployment is intentionally not configured. Creating it is a participant task.
+- Deployment publishes the existing paper prototype and workshop assets without changing their content.
